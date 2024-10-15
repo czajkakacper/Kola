@@ -13,6 +13,8 @@
 		3FF859CF2CBE5ED30056CD3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF859CE2CBE5ED30056CD3F /* Preview Assets.xcassets */; };
 		3FF859D12CBE5ED30056CD3F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF859D02CBE5ED30056CD3F /* Persistence.swift */; };
 		3FF859D42CBE5ED30056CD3F /* Kola.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FF859D22CBE5ED30056CD3F /* Kola.xcdatamodeld */; };
+		3FF859DB2CBE61E00056CD3F /* ColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF859DA2CBE61E00056CD3F /* ColorData.swift */; };
+		3FF859DD2CBE678E0056CD3F /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF859DC2CBE678E0056CD3F /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		3FF859CE2CBE5ED30056CD3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3FF859D02CBE5ED30056CD3F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3FF859D32CBE5ED30056CD3F /* Kola.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kola.xcdatamodel; sourceTree = "<group>"; };
+		3FF859DA2CBE61E00056CD3F /* ColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorData.swift; sourceTree = "<group>"; };
+		3FF859DC2CBE678E0056CD3F /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				3FF859C72CBE5ED20056CD3F /* KolaApp.swift */,
+				3FF859DA2CBE61E00056CD3F /* ColorData.swift */,
 				3FF859C92CBE5ED20056CD3F /* ContentView.swift */,
+				3FF859DC2CBE678E0056CD3F /* SwiftUIView.swift */,
 				3FF859CB2CBE5ED30056CD3F /* Assets.xcassets */,
 				3FF859D02CBE5ED30056CD3F /* Persistence.swift */,
 				3FF859D22CBE5ED30056CD3F /* Kola.xcdatamodeld */,
@@ -145,6 +151,8 @@
 			files = (
 				3FF859D42CBE5ED30056CD3F /* Kola.xcdatamodeld in Sources */,
 				3FF859D12CBE5ED30056CD3F /* Persistence.swift in Sources */,
+				3FF859DD2CBE678E0056CD3F /* SwiftUIView.swift in Sources */,
+				3FF859DB2CBE61E00056CD3F /* ColorData.swift in Sources */,
 				3FF859CA2CBE5ED20056CD3F /* ContentView.swift in Sources */,
 				3FF859C82CBE5ED20056CD3F /* KolaApp.swift in Sources */,
 			);
